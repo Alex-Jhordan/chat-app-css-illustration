@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" 
+    href="https://alex-jhordan.github.io/chat-app-css-illustration/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Chat app CSS illustration</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" 
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/9fbf56a230.js" 
+    crossorigin="anonymous"></script>
+
+  <!-- Styles -->
+  
+  <link rel="stylesheet" href="https://alex-jhordan.github.io/chat-app-css-illustration/assets/index-07d8602f.css">
+</head>
+<body class="rubik bg-light-grayish-violet">
+  <main class="flex flex-wrap justify-center items-center 
+    gap-x-20 gap-y-12 min-h-screen pt-16 lg:pb-16">
+    <!-- Phone -->
+    <article class="bg-white w-4/5 max-w-[320px]
+      mx-auto md:m-0 p-3 rounded-[2rem] shadow-2xl">
+      <!-- User info -->
+      <section class="bg-gradient-to-r from-light-violet to-light-magenta
+        rounded-t-3xl rounded-b-lg overflow-hidden p-6">
+        <div class="flex items-center gap-x-2 text-white">
+          <i class="fa-solid fa-chevron-left"></i>
+
+          <div class="basis-[90%] flex items-center gap-x-2">
+            <img src="https://alex-jhordan.github.io/chat-app-css-illustration/img/avatar.jpg" alt="avatar"
+              class="w-9 rounded-full p-0.5 bg-white">
+            <div class="">
+              <p class="text-sm font-medium">Samuel Green</p>
+              <p class="text-[0.6rem] text-pale-violet
+                font-thin">Available to Walk</p>
+            </div>
+          </div>
+
+          <i class="fa-solid fa-ellipsis-vertical text-pale-violet"></i>
+        </div>
+      </section>
+
+      <!-- Messages -->
+      <section class="bg-light-grayish-violet px-2.5 py-3 rounded-b-[2rem]">
+        <div class="bg-purple-100 px-3 py-2 rounded-xl 
+          text-moderate-violet w-3/5">
+          <p class="text-[0.65rem] font-medium">
+            That sounds great. I’d be happy with that.
+          </p>
+        </div>
+
+        <div class="bg-purple-100 px-3 py-2 rounded-xl 
+          text-moderate-violet w-3/5 mt-3">
+          <p class="text-[0.65rem] font-medium">
+            Could you send over some pictures of your dog, please?
+          </p>
+        </div>
+
+        <div class="flex flex-col items-end mt-4 gap-y-3">
+          <div class="flex gap-x-3">
+            <img src="https://alex-jhordan.github.io/chat-app-css-illustration/img/dog-image-1.jpg" alt="dog image 1"
+              class="w-12 rounded-lg">
+            <img src="https://alex-jhordan.github.io/chat-app-css-illustration/img/dog-image-2.jpg" alt="dog image 2"
+              class="w-12 rounded-lg">
+            <img src="https://alex-jhordan.github.io/chat-app-css-illustration/img/dog-image-3.jpg" alt="dog image 3"
+              class="w-12 rounded-lg">
+          </div>
+
+          <div class="bg-white px-3 py-2 rounded-xl 
+            text-desaturated-dark-violet w-3/5 shadow-md">
+            <p class="text-[0.65rem] font-medium">
+              Here are a few pictures. She’s a happy girl!
+            </p>
+          </div>
+
+          <div class="bg-white px-3 py-2 rounded-xl 
+            text-desaturated-dark-violet w-auto shadow-md">
+            <p class="text-[0.65rem] font-medium">Can you make it?</p>
+          </div>
+        </div>
+
+        <div class="bg-purple-100 px-3 py-2 rounded-xl 
+          text-moderate-violet w-3/5 mt-5">
+          <p class="text-[0.65rem] font-medium">
+            She looks so happy! The time we discussed works.
+            How long shall I take her out for?
+          </p>
+        </div>
+
+        <div class="bg-gradient-to-r from-light-magenta to-light-violet
+          rounded-xl w-3/4 mt-3 py-2 pl-3 pr-5 rounded-es">
+          <input type="radio" name="price" id="minute" class="hidden" checked>
+          <label class="text-[0.65rem] font-medium text-pale-violet
+            relative before:block before:h-3 before:w-4 hover:cursor-pointer 
+          before:bg-light-magenta before:rounded-full before:border 
+            before:top-0.5 flex items-center gap-x-3"
+            for="minute">
+            <span class="basis-[90%]">30 minute walk</span>
+            <span class="text-white font-bold text-base basis-1/4">$29</span>
+          </label>
+        </div>
+
+        <div class="bg-gradient-to-r from-light-magenta to-light-violet
+          rounded-xl w-3/4 mt-3 py-2 pl-3 pr-5 rounded-es">
+          <input type="radio" name="price" id="hour" class="hidden">
+          <label class="text-[0.65rem] font-medium text-pale-violet
+            relative before:block before:h-3 before:w-4 hover:cursor-pointer 
+          before:bg-light-magenta before:rounded-full before:border 
+            before:top-0.5 flex items-center gap-x-3"
+            for="hour">
+            <span class="basis-[90%]">1 hour walk</span>
+            <span class="text-white font-bold text-base basis-1/4">$49</span>
+          </label>
+        </div>
+
+        <!-- Text input -->
+        <section class="mt-4 relative">
+          <input type="text" placeholder="Type a message…"
+            class="py-2 px-6 rounded-2xl text-[0.65rem] font-medium
+            text-dark-grayish-violet placeholder:text-grayish-blue
+            focus:outline-none focus:border-light-violet 
+            focus:ring-light-magenta focus:ring-1 w-full">
+          <button>
+            <i class="fa-solid fa-chevron-right bg-very-dark-desaturated-violet
+              text-white py-2 px-2.5 rounded-full text-[0.65rem]
+              absolute top-0.5 right-1 hover:bg-violet-900
+              transition-all duration-300"></i>
+          </button>
+        </section>
+      </section>
+    </article>
+
+    <!-- Text -->
+    <article class="w-[90%] max-w-[375px] mx-auto md:m-0">
+      <h1 class="text-very-dark-desaturated-violet text-[2.75rem]
+        md:text-[3.25rem] text-center font-medium">
+        Simple booking
+      </h1>
+
+      <p class="mt-6 text-dark-grayish-violet text-center w-[85%]
+        mx-auto">
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+        discuss arrangements and make bookings. Once the walk has been completed you can rate 
+        your walker and book again all through the chat.
+      </p>
+    </article>
+  </main>
+  
+  <footer class="attribution p-4 mt-16 lg:mt-0">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY" 
+      target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Alex-Jhordan">Alex Jhordan</a>.
+  </footer>
+</body>
+</html>
